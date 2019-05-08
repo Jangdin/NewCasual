@@ -12,17 +12,18 @@
         android:layout_gravity="center_horizontal"
         app:srcCompat="@android:color/background_light"
         tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="147dp" />
+        tools:layout_editor_absoluteY="71dp"
+        tools:ignore="MissingConstraints" />
 
-
-
-    <Button
+    <CheckBox
         android:id="@+id/gotomainpage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Go to mainpage"
-        tools:layout_editor_absoluteX="135dp"
-        tools:layout_editor_absoluteY="474dp"
-        android:onClick="SwitchscreentoMain"/>
+        android:onClick="SwitchscreentoMain"
+        android:text="Are you over 20 years old?"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="487dp"
+        tools:ignore="MissingConstraints" />
+
 
 </android.support.constraint.ConstraintLayout>
