@@ -20,7 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="SwitchscreentoMain"
-        android:text="Are you over 20 years old?"
+        android:text="@string/Over20"
         tools:layout_editor_absoluteX="106dp"
         tools:layout_editor_absoluteY="487dp"
         tools:ignore="MissingConstraints" />
