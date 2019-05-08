@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Systembolaget</string>
+    <string name="MaximumAlcohol">Högsta alkoholhalt, t.ex. 5.0</string>
+    <string name="MaximumPrice">"Högsta pris, t.ex. 19 "</string>
+    <string name="MinimumAlcohol">Lägsta alkoholhalt, t.ex. 4.0</string>
+    <string name="MinimumPrice">Lägsta pris, t.ex. 12</string>
+    <string name="Search">Sök</string>
+    <string name="SearchProducts">Sök produkter</string>
+</resources>
