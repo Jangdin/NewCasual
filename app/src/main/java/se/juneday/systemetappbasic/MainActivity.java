@@ -134,7 +134,7 @@ public class MainActivity extends AppCompatActivity {
 
   private void showSearchDialog() {
     AlertDialog.Builder builder = new AlertDialog.Builder(this);
-    builder.setTitle("Search products");
+    builder.setTitle(R.string.SearchProducts);
     final View viewInflated = LayoutInflater
         .from(this).inflate(R.layout.search_dialog, null);
 
