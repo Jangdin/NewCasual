@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">>
+
+    <ImageView
+        android:id="@+id/firstimage"
+        android:layout_width="339dp"
+        android:layout_height="283dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@android:color/background_light"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+
+
+    <Button
+        android:id="@+id/gotomainpage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to mainpage"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="474dp"
+        android:onClick="SwitchscreentoMain"/>
+
+</android.support.constraint.ConstraintLayout>
