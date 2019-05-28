@@ -7,4 +7,5 @@
   <string name="Search">Search</string>
   <string name="SearchProducts">Search products</string>
   <string name="Over20">Yes, I am over 20 years old.</string>
+    <string name="Continue">Continue</string>
 </resources>

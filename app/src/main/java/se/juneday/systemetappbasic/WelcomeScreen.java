@@ -8,27 +8,28 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.TextView;
 
-public class FirstScreen extends AppCompatActivity {
+public class WelcomeScreen extends AppCompatActivity {
 
     private static final String TAG = "My Activity ";
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.first_screen);
+        setContentView(R.layout.welcome_screen);
 
-        ImageView firstimage = (ImageView) findViewById(R.id.firstimage);
-        int ImageResources = getResources().getIdentifier("drawable/system2", null, this.getPackageName());
+
+        ImageView firstimage = (ImageView) findViewById(R.id.secondimage);
+        int ImageResources = getResources().getIdentifier("drawable/systemmiljo", null, this.getPackageName());
         firstimage.setImageResource(ImageResources);
 
-        Button Gwelcomescreen = (Button) findViewById(R.id.gotowelcomescreen);
-        Gwelcomescreen.setOnClickListener(new View.OnClickListener() {
+
+        Button Gmainpage = (Button) findViewById(R.id.gotoMainpage);
+        Gmainpage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Log.v(TAG, "View " + v);
-                Intent intent = new Intent(FirstScreen.this, WelcomeScreen.class);
+                Intent intent = new Intent(WelcomeScreen.this, MainActivity.class);
                 startActivity(intent);
 
             }
