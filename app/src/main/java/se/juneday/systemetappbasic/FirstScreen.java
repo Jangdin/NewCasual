@@ -28,7 +28,7 @@ public class FirstScreen extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Log.v(TAG, "View " + v);
-                Intent intent = new Intent(FirstScreen.this, MainActivity.class);
+                Intent intent = new Intent(FirstScreen.this, WelcomeScreen.class);
                 startActivity(intent);
 
             }
