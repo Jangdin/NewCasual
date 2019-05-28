@@ -9,4 +9,8 @@
     <string name="SearchProducts">Sök produkter</string>
     <string name="Over20">Ja, jag är över 20 år gammal.</string>
     <string name="Continue">Fortsätt</string>
+    <string name="welcome_message">Välkommen till Systembolaget!</string>
+    <string name="press_continue">Tryck fortsätt för att söka produkter</string>
+    <string name="statement">Vi gör skillnad</string>
+    <string name="vision">Vår vision är ett samhälle där alkoholdrycker njuts med omsorg om hälsan så att ingen tar skada. Vi är långt ifrån där. Men om vi ser till varifrån vi kommer – ett utbrett berusningsdrickande och de problem det för med sig – så rör vi oss ändå mot en ny och mer medveten syn på alkohol.</string>
 </resources>
