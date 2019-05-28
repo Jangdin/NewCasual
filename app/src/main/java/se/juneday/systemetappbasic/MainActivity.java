@@ -243,7 +243,6 @@ public class MainActivity extends AppCompatActivity {
     // set up faked products
     createFakedProducts();
 
-
     // setup listview (and friends)
     setupListView();
   }
