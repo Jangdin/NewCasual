@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">>
+
+
+     <ImageView
+         android:id="@+id/secondimage"
+         android:layout_width="419dp"
+         android:layout_height="282dp"
+         android:layout_gravity="center_horizontal"
+         android:layout_marginStart="8dp"
+         android:layout_marginTop="8dp"
+         android:layout_marginEnd="8dp"
+         android:layout_marginBottom="8dp"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.731"
+         app:srcCompat="@android:color/background_light"
+         tools:ignore="MissingConstraints"></ImageView>
+
+     <Button
+         android:id="@+id/gotoMainpage"
+         android:layout_width="113dp"
+         android:layout_height="37dp"
+         android:layout_marginStart="8dp"
+         android:layout_marginTop="20dp"
+         android:layout_marginEnd="8dp"
+         android:layout_marginBottom="8dp"
+         android:onClick="SwitchscreentoMain"
+         android:text="@string/Continue"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.971"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/secondimage"
+         app:layout_constraintVertical_bias="0.288"
+         tools:ignore="MissingConstraints" />
+
+     <TextView
+         android:id="@+id/welcomemessage"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginStart="8dp"
+         android:layout_marginTop="8dp"
+         android:layout_marginEnd="8dp"
+         android:layout_marginBottom="8dp"
+         android:text="@string/welcome_message"
+         android:textAllCaps="true"
+         android:textColor="@android:color/black"
+         android:textSize="20dp"
+         app:layout_constraintBottom_toTopOf="@+id/textView"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.156"
+         tools:ignore="MissingConstraints" />
+
+     <TextView
+         android:id="@+id/textView"
+         android:layout_width="381dp"
+         android:layout_height="168dp"
+         android:text="@string/vision"
+         android:textColor="@android:color/black"
+         android:textSize="16dp"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.466"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.223" />
+
+
+     <TextView
+         android:id="@+id/textView2"
+         android:layout_width="wrap_content"
+         android:layout_height="25dp"
+         android:layout_marginStart="8dp"
+         android:layout_marginTop="8dp"
+         android:layout_marginEnd="8dp"
+         android:layout_marginBottom="8dp"
+         android:text="@string/statement"
+         android:textColor="@android:color/black"
+         android:textSize="16dp"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.024"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.091" />
+
+     <TextView
+         android:id="@+id/textView3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginStart="8dp"
+         android:layout_marginEnd="8dp"
+         android:layout_marginBottom="8dp"
+         android:text="@string/press_continue"
+         android:textColor="@android:color/black"
+         android:textSize="14dp"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.166"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.957" />
+
+
+</android.support.constraint.ConstraintLayout>
