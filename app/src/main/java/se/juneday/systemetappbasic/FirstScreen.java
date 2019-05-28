@@ -23,8 +23,8 @@ public class FirstScreen extends AppCompatActivity {
         int ImageResources = getResources().getIdentifier("drawable/system2", null, this.getPackageName());
         firstimage.setImageResource(ImageResources);
 
-        Button Gmainpage = (Button) findViewById(R.id.gotomainpage);
-        Gmainpage.setOnClickListener(new View.OnClickListener() {
+        Button Gwelcomescreen = (Button) findViewById(R.id.gotowelcomescreen);
+        Gwelcomescreen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Log.v(TAG, "View " + v);

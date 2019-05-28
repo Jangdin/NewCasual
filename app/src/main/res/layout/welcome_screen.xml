@@ -7,14 +7,25 @@
 
 
      <ImageView
-        android:id="@+id/secondimage"
-        android:layout_width="339dp"
-        android:layout_height="283dp"
-        android:layout_gravity="center_horizontal"
-        app:srcCompat="@android:color/background_light"
-         tools:ignore="MissingConstraints">
-
+         android:id="@+id/secondimage"
+         android:layout_width="339dp"
+         android:layout_height="283dp"
+         android:layout_gravity="center_horizontal"
+         app:srcCompat="@android:color/background_light"
+         tools:ignore="MissingConstraints"
+         tools:layout_editor_absoluteX="36dp"
+         tools:layout_editor_absoluteY="85dp">
      </ImageView>
+
+     <Button
+         android:id="@+id/gotoMainpage"
+         android:layout_width="180dp"
+         android:layout_height="68dp"
+         android:onClick="SwitchscreentoMain"
+         android:text="@string/Continue"
+         tools:ignore="MissingConstraints"
+         tools:layout_editor_absoluteX="97dp"
+         tools:layout_editor_absoluteY="409dp" />
 
 
 </android.support.constraint.ConstraintLayout>

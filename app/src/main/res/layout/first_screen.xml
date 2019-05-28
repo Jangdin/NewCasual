@@ -16,10 +16,10 @@
         tools:ignore="MissingConstraints" />
 
     <CheckBox
-        android:id="@+id/gotomainpage"
+        android:id="@+id/gotowelcomescreen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="SwitchscreentoMain"
+        android:onClick="SwitchscreentoWelcome"
         android:text="@string/Over20"
         tools:layout_editor_absoluteX="106dp"
         tools:layout_editor_absoluteY="487dp"
