@@ -21,6 +21,7 @@
     </activity>
     <activity android:name=".MainActivity"></activity>
     <activity android:name="WelcomeScreen"></activity>
+    <activity android:name=".ProductActivity"></activity>
 
   </application>
 
