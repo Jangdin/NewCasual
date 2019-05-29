@@ -7,4 +7,9 @@
   <string name="Search">Search</string>
   <string name="SearchProducts">Search products</string>
   <string name="Over20">Yes, I am over 20 years old.</string>
+    <string name="Continue">Continue</string>
+    <string name="welcome_message">Welcome to Systembolaget!</string>
+  <string name="press_continue">To search products press continue</string>
+  <string name="statement">We make a diffrence!</string>
+  <string name="vision">Our vision is a society where alcoholic beverages is enjoyed with care so that no one gets hurt. We are far from there. But if we look towards where we came from - a widespread intoxication problem - we are moving towards a new and more conscious use of alcohol.</string>
 </resources>
