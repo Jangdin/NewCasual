@@ -14,6 +14,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.ListView;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -239,6 +240,14 @@ public class MainActivity extends AppCompatActivity {
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
+
+    ImageView alcohol = (ImageView) findViewById(R.id.alcohol);
+    int ImageResources = getResources().getIdentifier("drawable/alcolol", null, this.getPackageName());
+    alcohol.setImageResource(ImageResources);
+
+    ImageView thearrow = (ImageView) findViewById(R.id.arrow);
+    int ImageResources2 = getResources().getIdentifier("drawable/pilupup", null, this.getPackageName());
+    thearrow.setImageResource(ImageResources2);
 
     // set up faked products
     createFakedProducts();
