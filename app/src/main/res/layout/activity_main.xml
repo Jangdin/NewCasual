@@ -7,11 +7,66 @@
   tools:context=".MainActivity">
 
   <ListView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:id="@+id/product_list"
-      tools:ignore="MissingConstraints">
-  </ListView>
+      android:id="@+id/product_list"
+      android:layout_width="410dp"
+      android:layout_height="562dp"
+      android:layout_marginTop="8dp"
+      android:layout_marginBottom="8dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="1.0"
+      tools:ignore="MissingConstraints"
+      tools:layout_editor_absoluteX="0dp"></ListView>
+
+  <TextView
+      android:id="@+id/textView4"
+      android:layout_width="105dp"
+      android:layout_height="64dp"
+      android:layout_marginStart="8dp"
+      android:layout_marginEnd="8dp"
+      android:layout_marginBottom="8dp"
+      android:text="@string/prod_search"
+      android:textColor="@android:color/black"
+      android:textSize="14dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.814"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.024"
+      tools:ignore="MissingConstraints" />
+
+  <ImageView
+      android:id="@+id/arrow"
+      android:layout_width="42dp"
+      android:layout_height="51dp"
+      android:layout_marginStart="8dp"
+      android:layout_marginTop="8dp"
+      android:layout_marginEnd="8dp"
+      android:layout_marginBottom="8dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.0"
+      tools:ignore="MissingConstraints" />
+
+  <ImageView
+      android:id="@+id/alcohol"
+      android:layout_width="169dp"
+      android:layout_height="107dp"
+      android:layout_marginStart="8dp"
+      android:layout_marginTop="8dp"
+      android:layout_marginEnd="8dp"
+      android:layout_marginBottom="8dp"
+      app:layout_constraintBottom_toTopOf="@+id/product_list"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="1.0"
+      tools:ignore="MissingConstraints" />
 
 
 </android.support.constraint.ConstraintLayout>
